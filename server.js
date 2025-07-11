@@ -18,7 +18,7 @@ app.use(cookieParser());
 const allowedOrigins = [
   'http://localhost:5173',
   'https://test-website-frontend-g59w.onrender.com',
-  'chrome-extension://cejpfeidcnlhkbifoimldjhjiijldold',
+  'chrome-extension://mfeggnbjhebkogmbefodpbdphjbljmek',
   'https://chat.openai.com',
   'https://chatgpt.com',
   'https://gemini.google.com',
