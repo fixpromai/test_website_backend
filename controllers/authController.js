@@ -39,7 +39,7 @@ exports.googleLogin = async (req, res) => {
       secure: true,
       sameSite: 'None',
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
-      domain: process.env.COOKIE_DOMAIN || 'localhost',
+      // domain: process.env.COOKIE_DOMAIN || 'localhost',
       path: '/'
     });
 
